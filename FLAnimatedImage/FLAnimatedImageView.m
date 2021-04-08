@@ -203,6 +203,9 @@
     }
 }
 
+-(void)setLoopCountdown:(NSUInteger)loopCountdown {
+    self.loopCountdown = loopCountdown;
+}
 
 #pragma mark Auto Layout
 
